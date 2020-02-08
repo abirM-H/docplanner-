@@ -1,0 +1,301 @@
+.firstpart{
+  
+  margin: 0px 10%;
+}
+.my-navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  width: 80%;
+}
+.logo-navbar{
+  width: 300px;
+  height: 100px;
+}
+.menu {
+  
+  display: flex;
+  position: relative;
+  width: 250px;
+  height: 30px;
+  list-style: none;
+
+}
+.menu a{
+  text-decoration: none;
+  color: rgb(153, 153, 153);
+  display: flex;
+  margin-left: 10px
+  
+}
+.sous-menu{
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style: none;
+        
+}
+
+.list-color:hover{
+ 
+    color: #00bfa5;
+   
+}
+.sous-menu:hover {
+  display: block
+
+}
+.list:hover + .sous-menu{
+  display: block;
+  margin: 10px 0;
+  padding: 10px 2px;
+  text-decoration: none;
+}
+.sous-menu a{
+  margin-top: 20px;
+ 
+}
+.header-logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 20%;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+h1{
+  text-align: center;
+    color:#00bfa5;
+}
+.bloc-introduction{
+  display: flex;
+
+}
+.presentation{
+  display: flex;
+  justify-content: flex-start;
+  color: #ababab;
+  line-height: 1.7;
+  margin-left: 30px; 
+  flex-wrap: wrap;
+  margin-top: 30px
+}
+.boxsearch{
+  display: flex;
+
+}
+.select{
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.img-patient{
+  margin-left: 250px;
+  height: 350px;
+  width: 450px;
+}
+.Type-box{
+  color: #ababab;
+}
+.description-box{
+  color: white;
+  font-size: 30px
+}
+.position {
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  height: 250pxx;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.blue {
+  background: #3d83df;
+}
+.green {
+  background: #00ccb1;
+}
+.blue img {
+  margin-left: 145px;
+}
+.position img {
+  height: 248.7px;
+}
+.company-sector{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.culture{
+  /* display: flex; */
+  flex-wrap: wrap;
+  margin-left: 50px;
+  width: 120px;
+  height: 50px;
+  fill: hsla(0,0%,67%,.7);
+  
+}
+
+.text-company{
+  font-size: 30px;
+  color: #00bfa5;
+ width: 250px
+}
+.section-platform{
+  display: flex;
+  background-color: #dbf7f6;
+  height: 540px;
+  position: relative;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.countries{
+  width: 220px;
+  height: 250px;
+  background-color: #ffffff;
+  margin: 10px 10px ;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* box-sizing: inherit; */
+
+}
+.img-platform{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  margin-top: 100px
+
+}
+/* .countries img {
+  padding: 46px 0px 0px 102px;
+} */
+.titre{
+  color: #00b39b;
+  font-size: 20px;
+  width: 150px
+}
+.description-countries {
+  font-size: 15px;
+  color: #7474a1;
+
+}
+.listCountries{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  
+}
+.titlePlatform{
+  color: #00b39b;
+  font-size: 30px;
+  width: 300px
+}
+.paraPlatform{
+  color: #ababab;
+  width: 400px
+}
+.first-platform p{
+ margin-left: 50px;
+}
+.countries img{
+margin-top: 20px
+}
+.office-items h2{
+  color: #00b39b
+}
+.office-items p{
+  color: #ababab
+}
+.office-items{
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto 4.1875rem;
+  margin-top: 50px
+}
+
+.desCard {
+  display: flex;
+  margin-top: 0%;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.bouttonCard{
+ 
+    padding: 15px;
+    font-size: 100;
+    font-size: 60%;
+    height: 20%;
+
+}
+.titre{
+  text-decoration: none;
+  color: #8a7474;
+}
+.listCountry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 1% 8%;
+}
+.listcard {
+  border: 1px solid #f1eaea;
+  border-radius: 6px;
+  margin-left: 1%;
+}
+.bouttonCard{
+  background-color: #008CBA;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid #008CBA;
+    height: 20px;
+}
+.listcard:hover{
+  box-shadow: 5px 10px 10px 5px #ababab;
+}
+
+.contryfooter {
+  display: flex;
+  color: #3d83df;
+    margin: 0% 1%;
+    font-size: 80%;
+
+}
+.contryleaders {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  align-items: center
+}
+.cont {
+  margin-left: 5px;
+}
+.paragfooter {
+  display: flex;
+  justify-content: center;
+  color: #ababab;
+  margin: 1% 20%;
+ 
+  text-align: center;
+}
